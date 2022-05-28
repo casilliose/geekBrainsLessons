@@ -1,0 +1,3 @@
+/home/igor/games/geekBrainsLessons/lesson1/CMakeFiles/main.dir
+/home/igor/games/geekBrainsLessons/lesson1/CMakeFiles/edit_cache.dir
+/home/igor/games/geekBrainsLessons/lesson1/CMakeFiles/rebuild_cache.dir
