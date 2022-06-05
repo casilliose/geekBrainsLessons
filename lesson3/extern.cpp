@@ -1,0 +1,1 @@
+extern const int a {4}, b {20}, c {12}, d {5};
