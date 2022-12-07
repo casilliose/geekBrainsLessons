@@ -1,0 +1,5 @@
+linux ubuntu 22.3
+run command for build protobuff to cpp
+~/.conan/data/protobuf/3.17.1/_/_/package/3c46b99f1f6ceb18db163abcd9d9d56913b97edc/bin/protoc-3.17.1.0 -I . --cpp_out car.proto
+and for compiler cpp file to bin
+g++ main.cpp @conanbuildinfo.args -o main
