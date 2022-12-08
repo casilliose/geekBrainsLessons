@@ -1,0 +1,19 @@
+syntax="proto3";
+
+package MyNameSpace;
+
+message FullName {
+    string Name = 1;
+    optional string MiddleName = 2;
+    string LastName = 3;
+}
+
+message Student {
+    FullName nameStudent = 1;
+    repeated int32 ratingsMap = 2 [packed = true];
+    double gpa = 3;
+}
+
+message StudentsGroup {
+    repeated Student studentMap = 1;
+}
